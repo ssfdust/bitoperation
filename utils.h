@@ -25,8 +25,8 @@
       25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, \
       6, 5, 4, 3, 2, 1, 0
 
-unsigned dec2bin(unsigned);
-unsigned bin2dec(unsigned);
+unsigned long long dec2bin(unsigned long long);
+unsigned long long bin2dec(unsigned long long);
 void _bin2dec_p(size_t, ...);
 void _dec2bin_p(size_t, ...);
 void formula_relation(int, int);
